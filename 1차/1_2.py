@@ -2,9 +2,16 @@
 #import math
 
 def solution(price, grade):
+    """answer : 할인 서비스 적용한 가격"""
     #Write code here.
     answer = 0
-    return answer
+    if grade=='S':
+        answer = price-(price*0.05)
+    elif grade=='G':
+        answer = price-(price*0.1)
+    else:
+        answer = price-(price*0.15)
+    return int(answer)
 
 #The following is code to output testcase.
 price1 = 2500
