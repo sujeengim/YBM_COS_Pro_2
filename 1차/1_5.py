@@ -11,9 +11,9 @@ def solution(arr):
     return arr
 
     # 다른 방법
-    # arr2[]
-    # for i in range(len(arr)-1,-1,-1):
-    #     arr2.append(arr[i])
+    # arr2[] # 새 리스트를 만들어서
+    # for i in range(len(arr)-1,-1,-1): # 0~len(arr)과 같은 길이인 len(arr)-1~-1만큼 반복한다. 스텝은 -1
+    #     arr2.append(arr[i]) #arr2의 뒷 인덱스부터 arr의 앞인덱스 값이 채워진다.
 
 #이건 왜 안될까
 def reverse2(arr):
